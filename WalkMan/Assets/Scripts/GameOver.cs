@@ -12,7 +12,7 @@ public class GameOver : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(transform.position.y < -0.5f){
+		if(transform.position.y < -2.5f){
 			//Application.LoadLevel ("Scene1");
 			SceneManager.LoadScene("Scene1");
 		}

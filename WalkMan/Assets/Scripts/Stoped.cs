@@ -11,7 +11,7 @@ public class Stoped : MonoBehaviour {
 		if (collision.gameObject.name == "Player")
 		{
 			//Application.LoadLevel ("Scene1");
-			SceneManager.LoadScene("Scene1");
+			SceneManager.LoadScene("Scene2");
 		} 
 	} 
 }
